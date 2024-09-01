@@ -1,0 +1,22 @@
+[package]
+name = "fuzzyd"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+fuzzy-matcher = "0.3"
+dirs = "5.0"
+walkdir = "2.5"
+which = "6.0"
+xdg = "2.5"
+termion = "4.0"
+regex = "1.10"
+lazy_static = "1.5"
+unicode-width = "0.1.13"
+thiserror = "1.0"
+toml = "0.8"
+serde = { version = "1.0", features = ["derive"] }
+clap = { version = "4.5", features = ["derive"] }
+unicode-segmentation = "1.11.0"
+rayon = "1.10"
+rand = "0.8"

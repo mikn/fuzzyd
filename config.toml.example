@@ -1,0 +1,14 @@
+debug = false
+
+[ui]
+prompt = "# "
+highlight_color = "green"
+
+[systemd-run]
+parameters = [
+    "--quiet",
+    "--user",
+    "--property=EnvironmentFile=-$HOME/.config/sway/env",
+    "--slice",
+    "app.slice"
+]
